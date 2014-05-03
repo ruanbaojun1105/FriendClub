@@ -1,0 +1,83 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+         />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp" />
+
+
+   <TableLayout android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:padding="10sp"
+       android:background="@android:color/white" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="150sp"
+        android:layout_height="40sp"
+        android:background="#0000"
+        android:ems="10"
+        android:hint="请输入用户名"
+        android:textColorHint="#2D4BB4" 
+        >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="150sp"
+        android:layout_height="40sp"
+        android:background="#0000"
+        android:ems="10"
+        android:hint="请输入密  码"
+        android:inputType="textPassword"
+        android:textColorHint="#2D4BB4"
+         />
+    
+   <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+   
+    >
+    <Button
+        android:id="@+id/buttonF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="10sp"
+        android:text="注册"
+        android:textColor="#2D4BB4"
+/>
+
+    <Button
+        android:id="@+id/buttonE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="30sp"
+        android:text="登录"
+        android:textColor="#2D4BB4"
+ />
+	</LinearLayout>
+     
+    </TableLayout>
+
+   
+
+</FrameLayout>

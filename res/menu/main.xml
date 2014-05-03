@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" > 
+    <item
+        android:id="@+id/settingmenu"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="设置"/>
+	 <item
+        android:id="@+id/aboutmenu"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="关于"/>
+	<item
+        android:id="@+id/exitmenu"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="退出"/>
+    
+</menu>
